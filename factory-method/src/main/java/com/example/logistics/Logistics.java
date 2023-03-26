@@ -9,5 +9,5 @@ public abstract class Logistics {
 
     };
 
-    abstract Transport createTransport();
+    abstract protected Transport createTransport();
 }
