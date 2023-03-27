@@ -1,3 +1,5 @@
-## Factory-Method Design Pattern
+# Factory-Method Design Pattern
 
-<img src="https://user-images.githubusercontent.com/84829442/227852154-39d8f511-ffac-4995-a7f6-78b183f6ed11.png" width="500px">
+
+### Logger Demo
+<img src="https://user-images.githubusercontent.com/84829442/227927622-f3ae6b77-c39a-4b02-81fd-c3df663939db.png" width="65%">
