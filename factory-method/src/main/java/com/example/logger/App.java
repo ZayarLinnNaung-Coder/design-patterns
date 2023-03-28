@@ -9,5 +9,5 @@ public class App {
         LoggerFactory loggerFactory2 = new FileLoggerFactory();
         loggerFactory2.getLogger().info("HELLO");
     }
-    
+
 }
