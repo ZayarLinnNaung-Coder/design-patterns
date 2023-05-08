@@ -8,8 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="factory-method" />
         <module name="abstract-factory-method" />
+        <module name="adapter" />
+        <module name="composite-pattern" />
+        <module name="proxy-pattern" />
+        <module name="bridge" />
         <module name="prototype" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comopsite-pattern" target="16" />
+      <module name="composite" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comopsite-pattern" options="-parameters" />
+    </option>
   </component>
 </project>

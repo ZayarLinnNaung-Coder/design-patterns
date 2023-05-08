@@ -19,19 +19,16 @@ public class Remote {
         }
     }
 
-    public double volumeUp(){
+    public void volumeUp(){
         device.increaseVolume();
-        return device.getVolume();
     }
 
-    public double volumeDown(){
+    public void volumeDown(){
         device.decreaseVolume();
-        return device.getVolume();
     }
 
-    public Channel switchChannel(Channel channel){
+    public void switchChannel(Channel channel){
         device.setChannel(channel);
-        return device.getChannel();
     }
 
 }
